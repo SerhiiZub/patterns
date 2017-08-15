@@ -8,7 +8,13 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
+use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
+use DesignPatterns\Creational\AbstractFactory\HtmlText;
+use DesignPatterns\Creational\AbstractFactory\JsonFactory;
+use DesignPatterns\Creational\AbstractFactory\JsonText;
 use PHPUnit\Framework\TestCase;
+
+require_once dirname(dirname(dirname(__DIR__))).'/autoloader.php';
 
 class AbstractFactoryTest extends TestCase
 {

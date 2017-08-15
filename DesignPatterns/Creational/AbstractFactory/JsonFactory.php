@@ -13,7 +13,7 @@ class JsonFactory extends AbstractFactory
 {
     public function createText(string $content): Text
     {
-        return new JesonText($content);
+        return new JsonText($content);
     }
 
 }
