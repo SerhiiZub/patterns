@@ -1,2 +1,2 @@
 # patterns
-design patterns PHP
+design patterns PHP http://designpatternsphp.readthedocs.io
